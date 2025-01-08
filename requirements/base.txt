@@ -16,3 +16,4 @@ flower==2.0.1
 django-jazzmin==3.0.1
 django-debug-toolbar==4.4.6
 djangorestframework-simplejwt==5.3.1
+django-json-widget==2.0.1
