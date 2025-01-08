@@ -10,7 +10,7 @@ env.read_env(os.path.join(BASE_DIR, ".env"))
 from .jazzmin import *
 SECRET_KEY = env.str("SECRET_KEY")
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY 
 DEBUG = env.bool("DEBUG")
 
 ALLOWED_HOSTS = ["*"]
