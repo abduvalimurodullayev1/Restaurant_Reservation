@@ -15,7 +15,6 @@ DEBUG = env.bool("DEBUG")
 
 ALLOWED_HOSTS = ["*"]
 
-# Application definition
 DJANGO_APPS = [
     'jazzmin',  # if you need
     "django.contrib.admin",
