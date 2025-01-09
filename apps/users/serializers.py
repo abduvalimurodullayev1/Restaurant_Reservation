@@ -10,7 +10,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         password = validated_data.pop('password')
-        hash_password = make_password(password)  # type: ignore
+        hash_password = make_password(password)  # type: 
         validated_data['password'] = hash_password
         return super().create(validated_data)
     
