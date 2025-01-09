@@ -9,7 +9,6 @@ from apps.users.models import User
 
 
 def resize_image(image_field, size=(800, 800)):
-    """ Tasvirni qayta o'lchash funksiyasi """
     if image_field:
         img = Image.open(image_field)
         img.thumbnail(size)
