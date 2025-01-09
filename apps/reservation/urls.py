@@ -6,7 +6,6 @@ app_name = "reservation"
 urlpatterns = [
     path("", ReservationListView.as_view(), name="list"),
     path("create/", ReservationApiView.as_view(), name="create"),
-    # path("<int:pk>/", ReservationDetailView.as_view(), name="detail"),
     path("<int:pk>/delete/", ReservationDelete.as_view(), name="delete"),        
     path("<int:pk>/update/", ReservationUpdate.as_view(), name="update"),   
     
