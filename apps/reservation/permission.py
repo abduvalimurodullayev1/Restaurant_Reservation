@@ -9,4 +9,3 @@ class IsAuthor(BasePermission):
 
         return obj.user == request.user
 
-# 
