@@ -35,3 +35,5 @@ swagger_urlpatterns = [
         name="schema-redoc",
     ),
 ]
+
+
