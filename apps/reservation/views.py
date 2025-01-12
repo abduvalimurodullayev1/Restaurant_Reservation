@@ -1,5 +1,4 @@
 
-
 from django.http import HttpResponse
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import status
