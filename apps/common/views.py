@@ -16,7 +16,7 @@ redis_client = redis.StrictRedis(
 @api_view(["GET"])
 def health_check_redis(request):
     try:
-        # Check Redis connection
+
         redis_client.ping()
         return Response({"status": "success"}, status=status.HTTP_200_OK)
     except redis.ConnectionError:
