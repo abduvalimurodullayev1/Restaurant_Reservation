@@ -17,4 +17,3 @@ class RestaurantPagination(PageNumberPagination):
                 "results": data,
             }
         )
-        
