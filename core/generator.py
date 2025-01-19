@@ -10,7 +10,3 @@ class BothHttpAndHttpsSchemaGenerator(OpenAPISchemaGenerator):
             schema.schemes = ["http", "https"]
 
         return schema
-
-# I won't give up
-# Because i didn't  come here to give up
-# Do you understand me boy
