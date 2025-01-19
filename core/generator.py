@@ -12,3 +12,4 @@ class BothHttpAndHttpsSchemaGenerator(OpenAPISchemaGenerator):
         return schema
 
 # I won't give up
+# Because i didn't  come here to give up
